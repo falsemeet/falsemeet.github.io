@@ -1,0 +1,28 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: redcarpet
+encoding: utf-8
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Life && IT Hacking
+
+description: Life for Coding
+author:
+  name: falsemeet
+  email: guijianchou@users.noreply.github.com
+  github: Guijianchou
+  bio: Life and IT hacking 
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
